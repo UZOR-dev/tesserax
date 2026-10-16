@@ -1,0 +1,29 @@
+[package]
+name = "tesserax-keytree"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Key tree for tesserax services: a root secret (e.g. from a passkey PRF) derives branch keys, sealed store files, non-exportable signing handles, attenuable capability tokens, revocation, and one isolated branch per root."
+keywords = ["backend", "keys", "capability", "passkey", "hkdf"]
+categories = ["cryptography", "authentication"]
+readme = "README.md"
+
+[features]
+default = ["capabilities"]
+# Biscuit capability tokens (issue, verify, attenuate, revocation ids).
+capabilities = ["dep:biscuit-auth", "dep:hex"]
+
+[dependencies]
+ed25519-dalek = { version = "2", features = ["rand_core"] }
+chacha20poly1305 = "0.10"
+hkdf = "0.12"
+sha2 = "0.10"
+rand_core = { version = "0.6", features = ["getrandom"] }
+zeroize = "1"
+biscuit-auth = { version = "6", optional = true }
+hex = { version = "0.4", optional = true }
+
+[dev-dependencies]
+tempfile = "3"
