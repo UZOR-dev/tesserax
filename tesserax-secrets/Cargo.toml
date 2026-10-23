@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "Secrets at rest and signing for tesserax services: host-bound sealing, daemon identity, signed operator commands, Shamir sharing, tripwire, key sources."
 keywords = ["secrets", "sealing", "ed25519", "shamir", "server"]
 categories = ["cryptography", "authentication"]

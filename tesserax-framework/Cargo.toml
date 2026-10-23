@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "Back-office framework on tesserax: a single-writer kernel with a fixed-phase step, the runtime that owns it, effect executors that report results back as generation-checked observations, HTTP / local shells plus a remote handle over the same port, and a process plugin host."
 keywords = ["backend", "server", "framework", "single-writer"]
 categories = ["web-programming::http-server"]

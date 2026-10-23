@@ -7,4 +7,5 @@ version = "0.1.2"
 edition = "2024"
 license = "MIT OR Apache-2.0"
 authors = ["ZENG3LD"]
-repository = "https://github.com/ZENG3LD/tesserax"
+repository = "https://github.com/UZOR-dev/tesserax"
+homepage = "https://github.com/UZOR-dev/tesserax"

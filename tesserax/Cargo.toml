@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "Back-office core library: single-writer (SWC) contract (envelopes, bounded port, lock-free snapshot edge, resync), pure tier/principal/audit/CIDR types, and a satellite-agnostic axum server builder with layer stages, plugins and lifecycle."
 keywords = ["backend", "server", "framework", "single-writer"]
 categories = ["web-programming::http-server"]

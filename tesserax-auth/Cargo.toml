@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "Authentication for tesserax servers: doors with path policies, hashed key ring, constant-time compare, HMAC-SHA256, derived tokens, auth ban."
 keywords = ["backend", "server", "auth", "api-key"]
 categories = ["web-programming::http-server", "authentication"]

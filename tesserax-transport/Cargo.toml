@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "Link IO for tesserax services: owner-only local sockets and pipes, a mutual link proof bound to a caller context, a call-home preface, the Ipc and TLS accept loops of a tesserax server, SPKI pins, and outbound webhook / SMTP / Telegram clients."
 keywords = ["ipc", "tls", "smtp", "webhook", "server"]
 categories = ["network-programming", "web-programming::http-server"]

@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "Key tree for tesserax services: a root secret (e.g. from a passkey PRF) derives branch keys, sealed store files, non-exportable signing handles, attenuable capability tokens, revocation, and one isolated branch per root."
 keywords = ["backend", "keys", "capability", "passkey", "hkdf"]
 categories = ["cryptography", "authentication"]

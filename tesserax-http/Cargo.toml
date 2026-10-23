@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "HTTP surface for tesserax servers: self-describing routes, OpenAPI from the route table, SSE / WebSocket hubs with resume, security guards, caching and tracing middleware, static assets, optional CORS proxy and response signing."
 keywords = ["backend", "server", "http", "openapi", "sse"]
 categories = ["web-programming::http-server"]

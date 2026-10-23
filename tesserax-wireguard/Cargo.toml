@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "kernel WireGuard link for tesserax, brought up with ip and wg. No userspace UDP stack."
 keywords = ["wireguard", "linux", "network"]
 categories = ["network-programming"]

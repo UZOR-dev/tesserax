@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "MCP (Model Context Protocol) JSON-RPC 2.0 server for tesserax: stateless tool dispatch with compact, byte-capped results, a tools/list size budget, self-described tiered routes and the admitted caller handed to every tool."
 keywords = ["mcp", "jsonrpc", "agent", "server", "axum"]
 categories = ["web-programming::http-server"]

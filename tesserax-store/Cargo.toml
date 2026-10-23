@@ -5,6 +5,7 @@ edition.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+homepage.workspace = true
 description = "SQLite persistence for tesserax services: one writer, bounded read pool, batch writer, checkpointer, migrations, hash-chained audit log, atomic files, optional encryption and an embedded time-series store."
 keywords = ["sqlite", "storage", "audit", "single-writer", "timeseries"]
 categories = ["database"]
